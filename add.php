@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css.css" />
+<link rel="stylesheet" href="css/css.css" />
 <?php
 ini_set('display_errors', 'On');
 ini_set('display_startup_errors', 'On');
