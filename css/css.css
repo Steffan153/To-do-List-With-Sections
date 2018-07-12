@@ -19,3 +19,4 @@ select, option	{background-color: #00A2FF; padding: 7px; border-radius: 800px; c
 select:hover, option:hover	{background-color: #00A2FF; padding: 7px; border-radius: 800px; color: lime}
 
 body	{background-color: #00F8FF; color: #0FCA09}
+* {font-family: Calibri, Arial, Helvetica, sans-serif}
