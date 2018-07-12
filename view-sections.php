@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="sweetalert.css" />
+<link rel="stylesheet" href="css/sweetalert.css" />
 <script src="sweetalert.min.js"></script>
 <style>
 .swal-button--cancel {background: #26FF26 !important}
@@ -26,7 +26,7 @@ function addSec() {
   });
 }
 </script>
-<link rel="stylesheet" href="css.css"/>
+<link rel="stylesheet" href="css/css.css"/>
 <?php
 $dir = "./";
 $GLOBLALS['files'] = array();
