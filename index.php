@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="sweetalert.css" />
+<link rel="stylesheet" href="css/sweetalert.css" />
 <script src="sweetalert.min.js"></script>
 <style>
 .swal-button--cancel {background: #26FF26 !important}
@@ -20,7 +20,7 @@ function confirmDelete(n,k) {
   });
 }
 </script>
-<link rel="stylesheet" href="css.css" />
+<link rel="stylesheet" href="css/css.css" />
 Sort By: <br><br><table style="postion: absolute; display: block; border: 2px solid bluem; margin-bottom: 20px" cellspacing=0 cellpadding=20>
 <tr>
 <td style="border: 2px solid blue"><a href="?sort=all">Show All</a></td>
