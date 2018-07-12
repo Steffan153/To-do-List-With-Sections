@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css.css"/>
+<link rel="stylesheet" href="css/css.css"/>
 <?php
 if(isset($_GET['dir'])) {
 $dir = $_GET['dir'];
