@@ -43,7 +43,7 @@ if (is_dir($dir)) {
 }
 sort($GLOBLALS['files']);
 foreach($GLOBLALS['files'] as $cDir) {
-  echo "<a href=\"$cDir\">$cDir</a><button onclick=\"confirmDelete('$cDir')\"><font style='font-size:15px'  color=red>&times;</font></button><br><br>\n";
+  if($cDir !== 'css') echo "<a href=\"$cDir\">$cDir</a><button onclick=\"confirmDelete('$cDir')\"><font style='font-size:15px'  color=red>&times;</font></button><br><br>\n";
 }
 ?>
 <br><br>

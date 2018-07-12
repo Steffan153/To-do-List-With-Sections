@@ -33,7 +33,7 @@ if (is_dir($dir)) {
 }
 sort($GLOBLALS['files']);
 foreach($GLOBLALS['files'] as $cDir) {
-  echo "<option value=\"$cDir\">$cDir</option>\n";
+  if($cDir !== 'css') echo "<option value=\"$cDir\">$cDir</option>\n";
 }
 echo<<<HTML
 </select>
